@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<process xmlns="http://drools.org/drools-5.0/process"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xs:schemaLocation="http://drools.org/drools-5.0/process drools-processes-5.0.xsd"
+         type="RuleFlow" name="sam" id="com.newpack.sampletest2" package-name="com.newpack" >
+
+  <header>
+    
+  </header>
+
+  <nodes>
+    <start id="1" name="Start" x="16" y="96" width="48" height="48" />
+    <end id="2" name="End" x="482" y="16" width="48" height="48" />
+    <actionNode id="3" name="Script" x="228" y="87" width="80" height="48" >
+        <action type="expression" dialect="mvel" >System.out.println("Hello World");</action>
+      <metaData name="UniqueId">
+        <value>9a817a65-69bb-455e-b5ff-11f51948195d</value>
+      </metaData>
+    </actionNode>
+  </nodes>
+
+  <connections>
+    <connection from="3" to="2" />
+    <connection from="1" to="3" />
+  </connections>
+
+</process>
