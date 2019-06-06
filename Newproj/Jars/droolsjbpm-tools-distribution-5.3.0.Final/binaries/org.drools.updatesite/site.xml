@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <feature url="features/org.drools.eclipse.feature_5.3.0.Final.jar" id="org.drools.eclipse.feature" version="5.3.0.Final">
+    <category name="droolsjbpm"/>
+  </feature>
+  <feature url="features/org.drools.eclipse.task.feature_5.3.0.Final.jar" id="org.drools.eclipse.task.feature" version="5.3.0.Final">
+    <category name="droolsjbpm"/>
+  </feature>
+  <feature url="features/org.guvnor.tools.feature_5.3.0.Final.jar" id="org.guvnor.tools.feature" version="5.3.0.Final">
+    <category name="droolsjbpm"/>
+  </feature>
+  <category-def name="droolsjbpm" label="Drools and jBPM">
+    <description>
+      Drools and jBPM plugins for Eclipse.
+    </description>
+  </category-def>
+</site>
